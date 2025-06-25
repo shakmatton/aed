@@ -1,0 +1,81 @@
+No menu real da aplicação, comentar opções extras, implementar opção que esquecemos de concretizar, e refazer a numeração das opções do menu. O que estiver comentado não deve aparecer ao usuário.
+
+
+=== SISTEMA DE BIBLIOTECA ===
+
+1. Cadastrar livro
+
+/* cadastrar livro: dados o código, tı́tulo, autor, editora, número da edição, ano, e número de
+exemplares, insere as informações no cadastro */
+
+2. Imprimir dados do livro
+/* Não há??? Fazer e implementar essa função!
+imprimir dados do livro: dado um código de livro, imprimir as informações do respectivo livro */
+
+
+// 2. Buscar livro por código (opção extra)
+
+/* opção pode ser comentada, pois não é pedida no enunciado (pede-se a busca por título de livro somente) */
+
+
+3. Listar todos os livros
+
+/* listar todos os livros: imprimir apenas o código, o tı́tulo, autor, e quantidade de exemplares de
+todos os livros do cadastro */
+
+
+4. Buscar livro por título
+
+/* busca por tı́tulo: dado o tı́tulo do livro, imprime as informações do respectivo livro */
+
+
+5. Calcular total de livros
+
+/* calcular total: imprime o número total de livros cadastrados */
+
+
+6. Cadastrar usuário
+
+/* cadastrar usuário: dados o código e nome, insere as informações no cadastro. */
+
+
+7. Emprestar livro
+
+/* emprestrar livro: dados o código do usuário e o código do livro, registra o empréstimo,
+considerando a data atual como a data do empréstimo, e diminuindo de 1 o número de exemplares
+disponı́veis do respectivo livro. Caso não haja exemplares disponı́veis, uma mensagem do tipo
+”Não há exemplares disponı́veis” deve ser dada ao usuário do sistema. */
+
+
+8. Devolver livro
+
+/* devolver livro: dados o código do usuário e o código do livro, registra a devolução, considerando
+a data atual, e aumentando de 1 o número de exemplares disponı́veis do respectivo livro. */
+
+
+9. Listar livros emprestados
+
+/* listar livros emprestados: lista os códigos dos usuários, nome dos respectivos usuários, códigos dos
+livros e tı́tulos dos livros emprestados e datas de empréstimo (apenas os ainda não devolvidos). */
+
+
+10. Carregar arquivo texto
+
+/* carregar arquivo: realiza inclusões em lote, carregando as informações de livros, usuários e
+empréstimos, armazenadas em um arquivo texto, inserido-as no arquivo binário do cadastro.
+O arquivo texto deve ter a sintaxe indicada mais abaixo. */
+
+
+// 10. Mostrar informações do arquivo (opção extra)
+
+/* opção pode ser comentada, pois não é pedida no enunciado */
+
+
+0. Sair
+
+
+
+
+
+
+
