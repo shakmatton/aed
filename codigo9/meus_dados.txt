@@ -1,0 +1,8 @@
+L;1;Asdfghhjkll;Bobo;Silly;1;2000;1
+L;2;Qwertyuiop;Querty;Yuiop;2;1990;2
+U;55;Fulano
+U;44;Sicrano
+E;55;1;22/03/2025;21/03/2025
+E;44;2;05/05/2025;
+
+
