@@ -1,0 +1,345 @@
+$ sudo make
+
+gcc -Wall -Wextra -std=c99 -g -c main.c -o main.o
+gcc -Wall -Wextra -std=c99 -g -c arquivo.c -o arquivo.o
+gcc -Wall -Wextra -std=c99 -g -c livros.c -o livros.o
+gcc -Wall -Wextra -std=c99 -g -c carregamento.c -o carregamento.o
+gcc main.o arquivo.o livros.o carregamento.o -o livros
+
+$ make run
+./livros
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 3
+
+=== LISTA DE TODOS OS LIVROS ===
+Nenhum livro cadastrado.
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 1
+
+=== CADASTRAR LIVRO ===
+Código: 7
+Título: aaa
+Autor: qqq
+Editora: zzz
+Edição: 111
+Ano: 1999
+Exemplares: 1
+Preço: 259,99
+Livro cadastrado com sucesso!
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 
+=== CADASTRAR LIVRO ===
+Código: Título: Autor: 3
+Editora: 1
+Edição: w
+Ano: Exemplares: Preço: Livro cadastrado com sucesso!
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 
+=== CADASTRAR LIVRO ===
+Código: Erro: Já existe um livro com código 1165030240
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 4
+
+=== TOTAL DE LIVROS ===
+Total de livros cadastrados: 2
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 3
+
+=== LISTA DE TODOS OS LIVROS ===
+Código: 7 | Título: aaa | Autor: qqq | Exemplares: 1
+Código: 1165030240 | Título: 99 | Autor: 3 | Exemplares: 1
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 5
+
+=== REMOVER LIVRO ===
+Código do livro a remover: 1165030240
+Livro removido com sucesso!
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 3
+
+=== LISTA DE TODOS OS LIVROS ===
+Código: 7 | Título: aaa | Autor: qqq | Exemplares: 1
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 7
+
+=== LISTA DE REGISTROS LIVRES ===
+Não há registros livres.
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 8
+
+=== ÁRVORE POR NÍVEIS ===
+7
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 2
+
+=== IMPRIMIR DADOS DO LIVRO ===
+Código do livro: 7
+
+--- DADOS DO LIVRO ---
+Código: 7
+Título: aaa
+Autor: qqq
+Editora: zzz
+Edição: 111
+Ano: 1999
+Exemplares: 1
+Preço: R$ 259.00
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 1
+
+=== CADASTRAR LIVRO ===
+Código: 888
+Título: popo
+Autor: lolo
+Editora: hoho
+Edição: 8
+Ano: 2000
+Exemplares: 8
+Preço: 88.99
+Livro cadastrado com sucesso!
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 3
+
+=== LISTA DE TODOS OS LIVROS ===
+Código: 7 | Título: aaa | Autor: qqq | Exemplares: 1
+Código: 888 | Título: popo | Autor: lolo | Exemplares: 8
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 6
+
+=== CARREGAR ARQUIVO ===
+Nome do arquivo: teste.txt
+Linha 1: Código 7 já existe, pulando...
+Arquivo carregado com sucesso! 8 livros inseridos.
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 3
+
+=== LISTA DE TODOS OS LIVROS ===
+Código: 4 | Título: As origens do Totalitarismo | Autor: Hannah Arendt | Exemplares: 7
+Código: 5 | Título: Hamlet | Autor: William Shakespeare | Exemplares: 7
+Código: 7 | Título: aaa | Autor: qqq | Exemplares: 1
+Código: 8 | Título: A condicao Humana | Autor: Hannah Arendt | Exemplares: 9
+Código: 11 | Título: A insustentavel leveza do ser | Autor: Milan Kundera | Exemplares: 7
+Código: 13 | Título: Dom Casmurro | Autor: Machado de Assis | Exemplares: 8
+Código: 20 | Título: Sagarana | Autor: Guimaraes Rosa | Exemplares: 20
+Código: 27 | Título: A Hora da Estrela | Autor: Clarice Lispector | Exemplares: 3
+Código: 33 | Título: O Alienista | Autor: Machado de Assis | Exemplares: 28
+Código: 888 | Título: popo | Autor: lolo | Exemplares: 8
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 4
+
+=== TOTAL DE LIVROS ===
+Total de livros cadastrados: 10
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 7
+
+=== LISTA DE REGISTROS LIVRES ===
+Não há registros livres.
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+Escolha uma opção: 8
+
+=== ÁRVORE POR NÍVEIS ===
+7
+5
+888
+4
+11
+8
+27
+13
+33
+20
+
+=== SISTEMA DE GERENCIAMENTO DE LIVROS ===
+1. Cadastrar livro
+2. Imprimir dados do livro
+3. Listar todos os livros
+4. Calcular total de livros
+5. Remover livro
+6. Carregar arquivo
+7. Imprimir lista de registros livres
+8. Imprimir árvore por níveis
+0. Sair
+
+
+
+
